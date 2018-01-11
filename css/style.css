@@ -1,0 +1,28 @@
+.clock-time {
+    font-size: 4rem;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+}
+.title {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.card {
+    border: solid 1px lightgray;
+    border-radius: 8px;
+    width: max-content;
+    height: auto;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 6px 6px #888888;
+}
